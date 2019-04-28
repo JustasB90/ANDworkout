@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity"
+    android:background="#222">
+    <!--#607d8b-->
+    <Button
+        android:id="@+id/pullID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:text="Pull"
+        android:textSize="50sp"
+        android:textColor="@color/lightLetters"
+        android:background="@drawable/main_activity_shape"
+
+        />
+
+    <Button
+        android:id="@+id/pushID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/pullID"
+        android:text="Push"
+        android:textSize="50sp"
+        android:textColor="@color/lightLetters"
+        android:background="@drawable/main_activity_shape"/>
+
+    <Button
+        android:id="@+id/legsID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/pushID"
+        android:text="Legs, misc"
+        android:textSize="50sp"
+        android:textColor="@color/lightLetters"
+        android:background="@drawable/main_activity_shape"/>
+
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_below="@+id/legsID"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="weather"
+        android:textSize="50sp"
+        android:textColor="@color/lightLetters"
+        android:background="@drawable/main_activity_shape"/>
+</RelativeLayout>
